@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body,#root { height:100%; }
+
+.shadow-soft { box-shadow: 8px 12px 30px rgba(124,58,237,0.12); }
+.shadow-inset { box-shadow: inset 6px 6px 18px rgba(0,0,0,0.04); }
+.font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', monospace; }
